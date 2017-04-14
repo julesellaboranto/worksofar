@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ellaboranto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+    <!-- start navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">{ellaboranto}</a>
+        </div><!-- end navbar-header-->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">home<span class="sr-only">(current)</span></a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- start welcome"-->
+    <div class="welcome">
+      <img src="img/nycsunrise.jpg" alt="New York" class="img-home img-responsive">
+        <h1><span>Julia Landsiedel</span></h1>
+        <h2><span>Developer</span></h2>
+        <!--<span style="visibility: hidden;">
+          <span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);">
+            <span class="char1 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">D</span>
+            <span class="char2 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">e</span>
+            <span class="char3 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">v</span>
+            <span class="char4 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">e</span>
+            <span class="char5 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">l</span>
+            <span class="char6 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">o</span>
+            <span class="char7 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">p</span>
+            <span class="char8 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">e</span>
+            <span class="char9 animated fadeInLeftBig" style="display: inline-block; visibility: visible;">r</span>
+          </span>
+        </span>-->
+    </div>
+    
+    <!-- start about-->
+    <section class="introduction" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h3 id="greeting"><strong>hi.</strong></h3>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <p>I'm Julia Landsiedel, front-end developer, currently gaining experience in the creation of web applications. I'm at the beginning of my career and excited to continue my journey to become an experienced developer.</p>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container-->
+    </section>
+
+    <section class="about" data-stellar-background-ratio="0.2">
+      <h3><span>skills</span></h3>
+        <div class="container">
+          <div class="row" id="web-skills">
+            <h4>technical</h4>
+              <div class="col-md-6 col-sm-12">
+                <div class="skills">
+                  <ul class="list">
+                    <li>HTML5 and CSS</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>Git</li>
+                  </ul>
+                </div><!--end skills-->
+              </div><!--end col-->
+              <div class="col-md-6 col-sm-12">
+                <div class="skills">
+                  <ul class="list">
+                    <li>Ruby</li>
+                    <li>Rails</li>
+                    <li>JavaScript</li> 
+                    <li>AJAX</li>           	
+                  </ul>
+                </div><!-- end skills-->
+              </div><!--end col-->
+          </div> <!--end row-->
+        </div> <!--end container -->
+        <div class="container">
+          <div class="row" id="soft-skills">
+            <h4>general</h4>
+              <div class="col-md-6 col-sm-12">
+                <div class="skills">
+                  <ul class="list">
+                    <li>Teamwork</li>
+                    <li>Creative Thinking</li>
+                    <li>Adaptability</li>
+                  </ul>
+                </div><!-- end skills-->
+              </div><!-- end col -->
+              <div class="col-md-6 col-sm-12">
+                <div class="skills">    
+                  <ul class="list">
+                    <li>Critical Thinking</li>
+                    <li>Lifelong Learning</li>
+                    <li>Business Mindedness</li>  	
+                  </ul>
+                </div>  <!-- end skills-->
+              </div> <!--end col -->
+          </div><!-- end row-->
+        </div><!-- end container -->
+    </section>
+
+    <section id="work">
+      <div id="Project1" data-stellar-background-ratio="0.2">
+        <a target="_blank" href="https://julesellaboranto.bitballoon.com/"><h4><span>Project One</span></h4>
+        <h4><span>Portfolio</span></h4></a>
+      </div>
+      <div id="Project2" data-stellar-background-ratio="0.2">
+        <a target="_blank" href="https://julesellaboranto.herokuapp.com/"><h4><span>Project Two</span></h4>
+        <h4><span>Online Shop</span></h4></a>
+      </div>
+    </section>
+
+    <!-- Start carousel -->
+    <div class="carousel slide" data-ride="carousel" id="myCarousel">
+      <div class="carousel-caption">
+        <h4><span>Work in Progress</span></h4>  
+      </div>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/bridge.jpg" alt="Brooklyn Bridge">
+      </div>
+      <div class="item">
+        <img src="img/B_Bridge.jpg" alt="Brooklyn Bridge">
+      </div>
+      <div class="item">
+        <img src="img/Liberty.jpg" alt="Statue of Liberty">
+      </div>
+    </div><!-- end carousel-inner-->
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+
+    <section class="contacts" id="contact">
+      <h4><span>Say Hello</span></h4>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <p class="contact-name">Julia Landsiedel</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <p class="contact-details"><span class="glyphicon glyphicon-envelope"></span> juliaf.landsiedel@gmail.com</p>
+            </div>
+        </div><!-- end row -->
+      </div><!-- end container-->
+    </section>
+
+    <footer>
+      <div class="container-fluid bg-footer">
+        <hr>
+        <div class="footer-element">&copy; ellaboranto 2017</div>
+        <!-- twitter button -->
+        <div class="footer-element">
+          <a target="_blank" href="https://twitter.com/ellaboranto"</a>
+          <img class="twitter-logo" src="img/twitter-logo.png">
+        </div>
+      </div>
+    </footer>   
+  <!--<a class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @ellaboranto-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap core JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="stellar/jquery.stellar.min.js"></script>
+  <!--<script src="js/work.js"></script>-->
+  <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,249 @@
+/* ------------------------
+body
+navbar
+welcome
+about 
+work
+carousel
+contact
+footer
+---------------------------*/
+
+/* ------------------------
+body
+---------------------------*/
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #dae3f0;
+  text-decoration-color: #000;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* ------------------------
+navbar
+---------------------------*/
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+.navbar-default {
+  background-color: #dae3f0;
+  border-color: #dae3f0;
+}
+
+/* ------------------------
+welcome
+---------------------------*/
+.welcome {
+  width: 100%;
+  position: relative; 
+}
+.img-home {
+  width: 100vw;
+  height: 95vh;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0)
+  /*animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
+}
+h1 {
+  position: absolute; 
+  top: 150px; 
+  width: 100%;
+  padding-bottom: 1em;
+}
+h1 span {
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+h2 {
+  position: absolute; 
+  top: 205px; 
+  width: 100%;
+}
+h2 span {
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.header {
+  text-align: right;
+  padding-bottom: 3em;
+  padding-right: 1em;
+}
+/* ------------------------
+about
+---------------------------*/
+
+.container {
+  width: 70%;
+  padding-top: 2.5em;
+}
+.introduction {
+  padding-top: 2.1em;
+  padding-bottom: 3em;
+}
+#greeting {
+  padding-left: 5em;
+}
+p {
+  padding-top: 1em;
+  font-size: 1.7em;
+}
+.about {
+  background-image: url("../img/bali.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  padding-bottom: 4em;
+}
+@media only screen and (max-device-width: 1024px) {
+    .about {
+        background-attachment: scroll;
+    }
+}
+.row {
+  margin-left: 3em;
+  margin-right: 3em;
+  display: block;
+  text-align: center;
+}
+h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  position: absolute;
+  text-align: center;
+}
+h3 span {
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+h4 {
+  text-transform: uppercase;
+  /*padding-bottom: 1.5em;*/
+  padding-top: 0.8em;
+  font-size: 2.2em;
+}
+.skills {
+  text-align: center;
+  background-color: #a3b9db;
+}
+.list {
+  list-style-type: none;
+  padding: 0.7em;
+  font-size: 1.7em;
+  padding-bottom: 2em;
+}
+
+/* ------------------------
+work
+---------------------------*/
+#Project1 {
+  background-image: url("../img/project1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+#Project2 {
+  background-image: url("../img/project2.png");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+h4 span {
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+#work {
+  margin-bottom: 1em;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* ------------------------
+carousel
+---------------------------*/
+
+.carousel-caption {
+  text-align: left;
+  margin-bottom: 57em;
+  margin-right: 12em;
+}
+
+/* ------------------------
+contact
+---------------------------*/
+.contacts {
+  /*background-image: url("../img/author.png");
+  background-attachment: fixed;
+  background-size: cover;*/
+  height: 200px;
+  width: 100%;
+}
+
+/* ------------------------
+footer
+---------------------------*/
+footer {
+  height: 5px;
+  width: 100%;
+  margin-top: 10px;
+} 
+.copyright {
+  text-align: right;
+  margin-right: 100px;
+}
+.bg-footer {
+  color: #000;
+  height: 30px;
+  padding-top: 5px;
+}
+.footer-element {
+  float: right;
+  display: inline;
+  padding: 0 3px;
+  margin-right: 20px;
+}
+.twitter-logo {
+  height: 2.5em;
+  width: 2.5em;
+  margin-bottom: 0.8em;
+}
+/*body{
+    -webkit-animation:zoom 20s ;
+    animation:zoom 20s ;
+    background:url("../img/nycsunrise.jpg") center center fixed no-repeat;
+}
+@-webkit-keyframes zoom{
+    0%,100%{
+        background-size:100%;
+    }
+    50%{
+        background-size:125%;
+    }
+}
+@keyframes zoom{
+    0%, 100%{
+        background-size:100%;
+    }
+    50%{
+        background-size:125%;
+    }
+}*/
